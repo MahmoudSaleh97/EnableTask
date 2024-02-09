@@ -47,7 +47,7 @@ public class TestSuite {
 		
 	}
 	
-	@Test 
+	@Test (priority = 4)
 	public void lockedUser() {
 		System.out.println("2nd TestCase  " + Thread.currentThread().getId() + "\n");
 		
@@ -58,7 +58,7 @@ public class TestSuite {
 		
 	}
 	
-	@Test 
+	@Test (priority = 3)
 	public void virtualUser() throws InterruptedException {
 		System.out.println("3rd TestCase  " + Thread.currentThread().getId() + "\n");
 		
@@ -73,7 +73,7 @@ public class TestSuite {
 		
 	}
 	
-	@Test
+	@Test (priority = 2)
 	public void pwIsMandatoryCheck() {
 		System.out.println("4th TestCase  " + Thread.currentThread().getId() + "\n");
 		
@@ -81,7 +81,7 @@ public class TestSuite {
 		login.loginWithoutUserName("secret_sauce");
 	}
 	
-	@Test 
+	@Test (priority = 5)
 	public void glitchUser() {
 		System.out.println("5th TestCase  " + Thread.currentThread().getId() + "\n");
 		
