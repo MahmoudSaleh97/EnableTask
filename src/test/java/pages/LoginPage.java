@@ -85,7 +85,7 @@ public class LoginPage {
 	}
 
 	// Login with Glitch User Method
-	public void loginWithGlitchUser(String usrName, String password) throws InterruptedException {
+	public void loginWithGlitchUser(String usrName, String password) {
 
 		ItemsPage itemsPage = new ItemsPage(driver);
 
