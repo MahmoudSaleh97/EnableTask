@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [HappyScenario]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="tests.HappyScenario">
+        <methods>
+          <include name="successfulFlow"/>
+          <include name="virtualUser"/>
+          <include name="quit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.HappyScenario -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [HappyScenario] -->

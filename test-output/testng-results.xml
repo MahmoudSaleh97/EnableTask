@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-09T05:33:50 GMT+02:00" name="Parallel Testing" finished-at="2024-02-09T05:33:58 GMT+02:00" duration-ms="8566">
+    <groups>
+    </groups>
+    <test started-at="2024-02-09T05:33:50 GMT+02:00" name="Test Parallel" finished-at="2024-02-09T05:33:58 GMT+02:00" duration-ms="8566">
+      <class name="tests.TestSuite">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:50 GMT+02:00" name="setup" finished-at="2024-02-09T05:33:52 GMT+02:00" duration-ms="2570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:50 GMT+02:00" name="setup" finished-at="2024-02-09T05:33:53 GMT+02:00" duration-ms="3134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:50 GMT+02:00" name="setup" finished-at="2024-02-09T05:33:53 GMT+02:00" duration-ms="3133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:50 GMT+02:00" name="setup" finished-at="2024-02-09T05:33:53 GMT+02:00" duration-ms="3142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:50 GMT+02:00" name="setup" finished-at="2024-02-09T05:33:52 GMT+02:00" duration-ms="2569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="virtualUser()[pri:0, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:52 GMT+02:00" name="virtualUser" finished-at="2024-02-09T05:33:54 GMT+02:00" duration-ms="1989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- virtualUser -->
+        <test-method signature="glitchUser()[pri:0, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:52 GMT+02:00" name="glitchUser" finished-at="2024-02-09T05:33:58 GMT+02:00" duration-ms="5864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- glitchUser -->
+        <test-method signature="lockedUser()[pri:0, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:53 GMT+02:00" name="lockedUser" finished-at="2024-02-09T05:33:53 GMT+02:00" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedUser -->
+        <test-method signature="successfulFlow()[pri:1, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:53 GMT+02:00" name="successfulFlow" finished-at="2024-02-09T05:33:54 GMT+02:00" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulFlow -->
+        <test-method signature="pwIsMandatoryCheck()[pri:0, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:53 GMT+02:00" name="pwIsMandatoryCheck" finished-at="2024-02-09T05:33:53 GMT+02:00" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pwIsMandatoryCheck -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:53 GMT+02:00" name="quit" finished-at="2024-02-09T05:33:53 GMT+02:00" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:53 GMT+02:00" name="quit" finished-at="2024-02-09T05:33:53 GMT+02:00" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:54 GMT+02:00" name="quit" finished-at="2024-02-09T05:33:54 GMT+02:00" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:54 GMT+02:00" name="quit" finished-at="2024-02-09T05:33:55 GMT+02:00" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.TestSuite@38d8f54a]" started-at="2024-02-09T05:33:58 GMT+02:00" name="quit" finished-at="2024-02-09T05:33:58 GMT+02:00" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.TestSuite -->
+    </test> <!-- Test Parallel -->
+  </suite> <!-- Parallel Testing -->
+</testng-results>
