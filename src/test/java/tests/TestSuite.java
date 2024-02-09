@@ -82,7 +82,7 @@ public class TestSuite {
 	}
 	
 	@Test 
-	public void glitchUser() throws InterruptedException {
+	public void glitchUser() {
 		System.out.println("5th TestCase  " + Thread.currentThread().getId() + "\n");
 		
 		LoginPage login = new LoginPage(getDriver());
